@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind Portfolio
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Dark Mode
 
-## Deploy your own
+`experimental: appDir` が `False` なら出来たが
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+True だとどうやら無理っぽい
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+どうやっても出来ないし `pages/` に入れるバージョン
 
-## How to use
+つまり昔のバージョンのNextjsなら簡単にtoggle ができた
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+よくわからんのでこれで終了
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Deploy
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+この後Deloyする
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Vercel というサイトで一瞬出来るぽい
